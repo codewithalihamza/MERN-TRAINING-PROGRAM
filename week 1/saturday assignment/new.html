@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+<style>
+    body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+</style>    
+</head>
+<body>
+	<header>
+		<h1>My Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hi, my name is John Doe and I'm a web developer.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat enim et urna facilisis, ac ullamcorper velit rutrum. Donec ac lorem lacinia, consectetur risus vel, dictum tellus. Fusce mattis, nunc in malesuada fringilla, ex nisl imperdiet ipsum, ac egestas dolor nisl in nibh. Fusce semper ornare augue, eget feugiat elit mollis eu. </p>
+		</section>
+		
+		<section id="projects">
+			<h2>My Projects</h2>
+			<ul>
+				<li>
+					<h3>Project 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat enim et urna facilisis, ac ullamcorper velit rutrum.</p>
+				</li>
+				<li>
+					<h3>Project 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat enim et urna facilisis, ac ullamcorper velit rutrum.</p>
+				</li>
+				<li>
+					<h3>Project 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat enim et urna facilisis, ac ullamcorper velit rutrum.</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Copyright © My Portfolio 2023.
+	</footer>
+	
+</body>
+</html>
